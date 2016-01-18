@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <article class="container">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Career</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+      </article>
+      
+      <!--<article class="container navbar navbar-inverse">
+        <ul class='nav navbar-nav navbar-right'>
+          <li><a href='a.html'> home </a></li>
+          <li><a href='a.html'>about</a></li>
+          <li><a href='a.html'>contact</a></li>
+        </ul>
+      </article>-->
+        <article class="container">
+        <div class="visible-xs">
+          <p>this is a mobile device</p>
+        </div>
+          <p>Hello world! This is HTML5 Boilerplate.</p>
+          
+          
+          <script>
+           for (var i = 0; i < 5; i++) {
+              var btn = document.createElement('button');
+              btn.appendChild(document.createTextNode('Button ' + i));
+              (function(i) {
+                btn.addEventListener('click', function(){ 
+                  console.log(i*1000);  } );
+              })(i);
+              //btn.appendChild(document.createTextNode('Button ' + i));
+              //btn.addEventListener('click', function(i){ 
+              //  return function() {
+              //    console.log(i);
+              //  };
+              //}(i) 
+               //       );
+              document.body.appendChild(btn);
+            } 
+            
+            
+            
+            
+          </script>
+          
+          
+          
+          
+          
+          <i class="glyphicon glyphicon-thumbs-up font-3em"></i>
+          <div class="well wel-lg">
+            <h1>symphony</h1>
+            <div class="row">
+              <div class="col-sm-4 col-xs-12">
+                <h2>classical</h2>
+                <p>sumphonies such as mozart and haydn and stamitz and gluck and young beethoven</p>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <h2>romantic</h2>
+                <p>beethoven and mendelsohn and schuman and schubert and mahler and sibeliues</p>
+              </div>
+              <div class="col-sm-3 col-sm-offset-1 col-xs-6">
+                <h2>Modern</h2>
+                <p>Shostakovich and Stravinsky</p>
+              </div>
+            </div>
+          </div>
+          <button type="button" class='btn btn-lg btn-default'>Listen to the symphony</button>
+           <button type="button" class='btn btn-lg btn-primary'>write a symphony</button>
+         
+          <h2>other composers</h2>
+          <ul class='list-unstyled'>
+            <li>bach</li>
+            <li>brahms</li>
+            <li>berlioz</li>
+          </ul>
+          
+          <h2>others inline</h2>
+          <ul class='list-inline'>
+            <li>bach</li>
+            <li>brahms</li>
+            <li>berlioz</li>
+          </ul>
+      </article>
+        
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
